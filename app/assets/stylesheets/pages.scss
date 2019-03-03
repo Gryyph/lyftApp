@@ -1,0 +1,34 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+	
+	background-color: rgba(255,255,255,0.8);
+	width: 50%;
+	
+	margin-top: 5rem;
+	border-radius: 3px;
+	max-width:940px !important;
+
+}
+.text {
+	color:black;
+	text-align:center;
+	}
+.text.title {
+	padding-top: 3rem;
+}
+
+body {
+	background-image: image-url("city-background.jpeg");
+ 	background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: 50% 35%;
+}
+
+.btn.btn-primary {
+	margin-bottom: 3rem;
+}
